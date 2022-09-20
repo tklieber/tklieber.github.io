@@ -19,8 +19,6 @@ l'infrastructure des entreprises.
 
 # Impact du Covid-19 sur le marché mondial des tests de pénétration
 
-
-
 La pandémie a créé un énorme défi pour les entreprises du monde entier dans la poursuite de leurs activités malgré la fermeture massive de bureaux et d'autres
 installations. L'utilisation croissante des technologies pour rester en contact
 les uns avec les autres et exploiter efficacement les entreprises, en
