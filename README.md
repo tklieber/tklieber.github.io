@@ -6,13 +6,13 @@ L'objectif est de présenter et démontrer les différents aspects de la Red Tea
 
 ### blue vs purple vs red team vs white team
 
-Explication des différentes team, à quoi elles servent etc
+        Explication des différentes team, à quoi elles servent etc
 
 ### red team à l’international
 
 ### état du marché
 
-les grosses boites qui ont ça pour l’instant : en cours de démocratisation
+        les grosses boites qui ont ça pour l’instant : en cours de démocratisation
 
 ### la méthodologies de la red team
 
@@ -28,17 +28,17 @@ les grosses boites qui ont ça pour l’instant : en cours de démocratisation
 
 #### Outils
 
-VM Kali/Parrot, serveur C2, …
+                VM Kali/Parrot, serveur C2, …
 
 #### Infrastructure
 
 #### Prérequis techniques
 
-Bases en réseau (architecture : VLAN, … ; Subnetting; …) ; système Linux et Windows ; Active Directory ;
+                Bases en réseau (architecture : VLAN, … ; Subnetting; …) ; système Linux et Windows ; Active Directory ;
 
 ### Phishing et ingénierie sociale
 
-Phishing et ingénierie sociale
+                Phishing et ingénierie sociale
 
 ### Intrusion physique
 
@@ -46,15 +46,15 @@ Phishing et ingénierie sociale
 
 #### RFID - Reproduction de badge
 
-*flipper zero*
+            *flipper zero*
 
 ### Pentest numérique
 
-*OSINT Framework*
+            *OSINT Framework*   
 
-*The Internet Archive*
+            *The Internet Archive*
 
-*Google, Bing, Yandex etc*
+        *Google, Bing, Yandex etc*
 
 #### Pentest externe : cartographie réseau
 
@@ -110,7 +110,7 @@ Phishing et ingénierie sociale
 
 #### Système de rebond (pivoting)
 
-        SOCKS Proxies ; SSH Port forwarding
+            SOCKS Proxies ; SSH Port forwarding
 
 #### Post exploitation et collecte de trophées
 
