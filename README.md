@@ -14,13 +14,13 @@ L'objectif est de présenter et démontrer les différents aspects de la Red Tea
 
         les grosses boites qui ont ça pour l’instant : en cours de démocratisation
 
-### la méthodologies de la red team
+## la méthodologies de la red team
 
-#### objectifs et intérêt
+### objectifs et intérêt
 
-#### déroulement
+### déroulement
 
-#### trophées
+### trophées
 
 ## Techniques offensive de la red team
 

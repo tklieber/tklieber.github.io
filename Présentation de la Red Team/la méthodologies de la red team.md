@@ -78,5 +78,3 @@ En fonction des ressources disponibles, l'exercice de l'équipe rouge peut se d�
 - Engagement complet : Simulez le flux de travail complet d'un attaquant, de la compromission initiale jusqu'à la réalisation des objectifs finaux.
 - Violation présumée : Commencez par supposer que l'attaquant a déjà pris le contrôle de certains actifs, et essayez d'atteindre les objectifs à partir de là. Par exemple, l'équipe rouge pourrait avoir accès aux informations d'identification d'un utilisateur ou même à un poste de travail dans le réseau interne.
 - Exercice sur table : Une simulation sur table où des scénarios sont discutés entre les équipes rouge et bleue pour évaluer comment elles répondraient théoriquement à certaines menaces. Idéal pour les situations où les simulations en direct pourraient être compliquées.
-
-
