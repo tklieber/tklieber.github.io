@@ -2,29 +2,29 @@
 
 L'objectif est de présenter et démontrer les différents aspects de la Red Team. Ce cours démontrera quelques attaques basiques ainsi que plusieurs notion essentiels pour commencer dans le domaine. Il n’a pas vocation à être exhaustif.
 
-## Présentation de la Red Team
+## I. Présentation de la Red Team
 
-### blue vs purple vs red team vs white team
+### 1. blue vs purple vs red team vs white team
 
         Explication des différentes team, à quoi elles servent etc
 
-### red team à l’international
+### 2. red team à l’international
 
-### état du marché
+### 3. état du marché
 
         les grosses boites qui ont ça pour l’instant : en cours de démocratisation
 
-## la méthodologies de la red team
+## II. la méthodologies de la red team
 
-### objectifs et intérêt
+### 1. objectifs et intérêt
 
-### déroulement
+### 2. déroulement
 
-### trophées
+### 3. trophées
 
-## Techniques offensive de la red team
+## III. Techniques offensive de la red team
 
-### Outillage et prérequis techniques
+### 1. Outillage et prérequis techniques
 
 #### Outils
 
@@ -36,11 +36,11 @@ L'objectif est de présenter et démontrer les différents aspects de la Red Tea
 
                 Bases en réseau (architecture : VLAN, … ; Subnetting; …) ; système Linux et Windows ; Active Directory ;
 
-### Phishing et ingénierie sociale
+### 2. Phishing et ingénierie sociale
 
                 Phishing et ingénierie sociale
 
-### Intrusion physique
+### 3. Intrusion physique
 
 #### Crochetage de serrure
 
@@ -48,7 +48,7 @@ L'objectif est de présenter et démontrer les différents aspects de la Red Tea
 
             *flipper zero*
 
-### Pentest numérique
+### 4. Pentest numérique
 
             *OSINT Framework*   
 
@@ -74,7 +74,7 @@ L'objectif est de présenter et démontrer les différents aspects de la Red Tea
       
       *SQLMap*
    
-   2. SSRF
+   2. File Upload (anciennement SSRF)
    
    3. JWT
    
@@ -114,4 +114,6 @@ L'objectif est de présenter et démontrer les différents aspects de la Red Tea
 
 #### Post exploitation et collecte de trophées
 
-### Nettoyage et fin de mission
+### 5. Nettoyage et fin de mission
+
+![](/home/tristan/.config/marktext/images/2022-10-30-17-28-15-image.png)
