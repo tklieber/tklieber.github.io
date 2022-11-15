@@ -1,4 +1,4 @@
-La Red Team est une équipe composée de plusieurs membres dont les tâches peuvent être diverses et dont l’objectif est de tester principalement le temps de réponse des équipes de sécurité défensive (SOC - Blue Team).
+La Red Team est un terme désignant plusieurs membres d'une équipe dont les tâches peuvent être diverses et dont l’objectif est de tester principalement le temps de réponse des équipes de sécurité défensive (SOC - Blue Team).
 
 Elle doit penser à varier ses TTPs (Tactics, Techniques & Procedures) et donc innover et proposer de nouvelles charges malveillantes pouvant contourner les mesures en place pour challenger ces équipes.
 
