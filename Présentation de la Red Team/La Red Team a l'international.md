@@ -57,8 +57,7 @@ Etats-Unis, les premières entreprise de Cyber Red Team ont vu le jour au
 avancé qu'en France par exemple, il sont souvent des prédécesseur dans 
 ce domaine. Ce qui est le cas pour le principe de Red / Blue Team.  
 
-Dans
- la majorité des cas c'est dans les pays développés que sont le plus 
+Dans la majorité des cas c'est dans les pays développés que sont le plus 
 présentes les entreprises ayant de la Red Team. Dans les pays en 
 développement il est plus rare de trouver des équipes de Red Team car 
 ces équipes ont un coup plus élevés.

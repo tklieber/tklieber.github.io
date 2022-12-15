@@ -6,35 +6,19 @@ Voici une liste de tâche que nous retrouvons la plupart du temps durant un exer
 
 - Reconnaissance sur les réseaux sociaux
 
- 
-
 - Reconnaissance sur les assets exposés sur Internet sans interaction directe (i.e : Shodan, ZoomEye, Certificate Transparency etc...)
-
- 
 
 - Mise en place de l'infrastructure (C2)
 
- 
-
 - Achat de domaines catégorisés ou catégorisation de domaines "neutres"
-
- 
 
 - Préparation des templates de phishing
 
- 
-
 - Préparation des mails de catégorisation
-
- 
 
 - Préparation des mails de phishing
 
- 
-
 - Développement de payloads
-
- 
 
 Cette première étape est considérée comme une activité dite passive, il s’agit simplement de mettre en place les outils nécessaires à l’exercice Red Team et faire de la reconnaissance pour mieux connaître la cible de la mission (Open Source Intelligence).
 
@@ -46,27 +30,15 @@ Ils ont un but précis, ils vont permettre à l’équipe de savoir différentes
 
 - Est-ce qu'une passerelle mail bloque la réception des mails via un antivirus ou une règle particulière ? 
 
- 
-
 - Notre domaine est-il bien catégorisé et non filtré ?
-
- 
 
 - Notre mail finit-il dans les spams ?
 
- 
-
 - Un équipement réseau bloque t'il la réception ?
-
- 
 
 - Est-ce que le proxy sortant filtre la sortie vers notre infrastructure ?
 
- 
-
 - Quel est le type de client mail, sa version, son user-agent ?
-
- 
 
 Une fois que la Red Team a pu obtenir une première communication via ces mails de catégorisation, celle-ci va pouvoir passer dans sa phase offensive.
 
@@ -80,54 +52,31 @@ Si la charge malveillante est exécutée par la cible et qu’un premier beacon 
 
 - Reconnaissance via des requêtes LDAP (BloodHound, PowerView, LDAPSearch)
 
- 
-
 - Reconnaissance sur les partages réseaux
-
- 
 
 - Reconnaissance sur les ranges d'adresses IP (services accessibles en Interne)
 
- 
-
 - Reconnaissance sur le poste de l'utilisateur concerné (des mots de passes sont-il présents ou autre information essentielle ?)
 
- 
-
 etc...
-
- 
 
 Ces informations permettent ensuite à la Red Team de rebondir sur le réseau via des mouvements latéraux jusqu’à remplir les objectifs de la mission qui peuvent être variés (compromission d’un poste ou d’un serveur en particulier, devenir admin de domaine, prouver qu’il est possible de détourner de l’argent, réaliser une simulation d’attaque de type Ransomware et bien d’autres).
 
 Et là vous allez me dire “Oui mais tout ça c’est du pentest interne ?”.
 
-
 Urgh, à ce moment-là, je risque grincer des dents, pour plusieurs raisons :
 
 - Durant un exercice Red Team, les équipes de sécurité ne sont pas au courant de celui-ci, en pentest, elles le sont
 
- 
-
 - Le périmètre définit en pentest est très souvent plus petit qu'un périmètre Red Team
-
- 
 
 - Une Red Team va chercher à aller d'un point A à un point B et remontera essentiellement les vulnérabilités sur ce chemin
 
- 
-
 - Un pentester va lui, devoir remonter des vulnérabilités de façon générale sur un périmètre définit en testant différents chemins
-
- 
 
 - Un pentester n'aura souvent pas besoin de réaliser de l'ingénierie sociale sur les réseaux sociaux sauf sur prestation dédiée
 
- 
-
 - Enfin, une White Team que je mentionnerais plus bas n'est pas nécessaire lors d'un pentest
-
- 
 
 Vous l’aurez donc compris, un exercice Red Team n’est pas un pentest, et il serait intéressant que ce terme ne soit plus utilisé à outrance.
 
@@ -151,11 +100,7 @@ Elle est souvent composée de deux composantes majeures :
 
 - Le CERT (Computer Emergency Response Team) ou CISRT (Computer Security Incident Response Team)
 
- 
-
 - Un SOC (Security Operations Center)
-
- 
 
 Le CERT/CISRT a pour mission d’anticiper les incidents de sécurité via des activités de renseignements sur les menaces ainsi que les acteurs malveillants.
 
@@ -169,31 +114,17 @@ Pour détecter des événements anormaux, cette équipe possède plusieurs outil
 
 - Des injections suspicieuses dans un processus
 
- 
-
 - Des modifications dans le registre Windows
-
- 
 
 - La mise en place de moyens de persistance (tâches planifiées par exemple)
 
- 
-
 - Des modifications suspectes de fichiers
-
- 
 
 - Des dumps mémoire
 
- 
-
 - Un enchaînement de comportements suspects sur le poste
 
- 
-
 etc...
-
- 
 
 La Blue Team possède également des sondes réseaux IPS (Intrusion Prevention System) et IDS (Intrusion Detection System) qui sont généralement reliées à un SIEM (Security Information and Event Management).
 
@@ -207,39 +138,21 @@ Elles permettent de détecter plusieurs actions comme par exemple :
 
 - Des scans réseaux offensifs
 
- 
-
 - Utilisation d'exploits publics et connus
-
- 
 
 - Des comptes compromis ou des tentatives de compromission
 
- 
-
 - La mise en place de moyens de persistance
-
- 
 
 - Une élévation de privilèges
 
- 
-
 - Un contournement de permissions
-
- 
 
 - Un mouvement latéral
 
- 
-
 - Une communication vers un C2
 
- 
-
 etc...
-
- 
 
 Si la Blue Team détecte un exercice Red Team, à ce moment-là, l’exercice peut se transformer en Assume Breach, cela veut dire que l’exercice Red Team peut continuer en partant du principe qu’un attaquant a pu accéder au réseau interne.
 
@@ -251,7 +164,6 @@ Que ça soit en mode Assume Breach ou sans avoir détectée la Red Team, le rôl
 
 La White Team 
 
-
 La White Team est souvent composée d’une ou plusieurs personnes côté Blue Team et/ou de personnes du Management ainsi que d’une personne côté Red Team qui auront pour rôle d’encadrer l’exercice.
 
 Ces personnes sont donc au courant de l’exercice ainsi que des actions réalisées des deux côtés, que cela soit côté Blue ou côté Red, si la Red Team va trop loin, cette équipe devra à ce moment-là l’indiquer à la Red Team.
@@ -261,5 +173,3 @@ Les personnes de la White Team qui sont Blue à l’origine, ne doivent pas comm
 Ainsi, les personnes de la White Team peuvent définir les limites de l’exercice mais également donner des indices à la Red Team si cela est nécessaire pour gagner du temps.
 
 Imaginons, la Red Team a découvert un chemin de compromission sur l’Active Directory, au lieu de perdre 2 jours ou plus à identifier les machines intéressantes pour l’exercice, la White Team pourra communiquer à la Red Team où se trouve ces machines, dans quelle forêt de l’AD par exemple.
-
-
